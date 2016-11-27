@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid AllowDrop="True">
+    <Grid AllowDrop="True" CanDrag="True">
         <Grid.Background>
             <ImageBrush ImageSource="baggrund1.png"/>
         </Grid.Background>
@@ -17,7 +17,7 @@
                 <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.BorderBrush>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Margin="29,44,0,296" Width="387" d:LayoutOverrides="TopPosition, BottomPosition" Foreground="White" Header="Deltagere " FontSize="80" FontFamily="breakfastDEMO.otf#Breakfast DEMO" BorderBrush="Black" BorderThickness="5">
+        <ListView x:Name="listView" HorizontalAlignment="Left" Margin="29,10,0,330" Width="387" d:LayoutOverrides="TopPosition, BottomPosition" Foreground="White" Header="Deltagere " FontSize="30" FontFamily="breakfastDEMO.otf#Breakfast DEMO" BorderBrush="Black" BorderThickness="5">
             <ListView.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Listview.png"/>
             </ListView.Background>
